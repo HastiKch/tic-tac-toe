@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Armata');
+
+body {
+    background: #D8BFD8;
+    font-family: "Montserrat", sans-serif; 
+}
+
+h1 
+{
+    font-family: "Montserrat", sans-serif;
+    line-height: 0.7;
+    text-align: center;
+    margin: 0 auto;
+    
+    
+}
+.board h1{
+    color:	#8B008B ; 
+    font-size: 12em;
+    margin-top: 0.2em;
+    
+
+}
+
+.buttonback{
+
+    background: pink;
+    border-radius: 4px;
+    text-align: center;
+    position: absolute;
+    top: 1em;
+    right: 5em;
+    padding: .5em 1em;
+    text-decoration: none;
+    font-size: 1em;
+    font-family: "Montserrat", sans-serif;
+  
+   
+  
+  
+    
+
+}
+
+ul 
+{
+    margin: 0;
+    padding: 0;
+    list-style: none; 
+}
+.plyr1src{
+
+width: 10%;
+opacity: 35%;
+
+}
+.plyr1src2{
+
+    width: 10%;
+    opacity: 35%;
+    margin-left: 20%;
+
+    
+    }
+    
+
+
+.plyr2src{
+
+    width: 10%;
+    opacity: 35%;
+    margin-top: 3%;
+    
+    }
+
+    .plyr2src2{
+
+        width: 10%;
+        opacity: 35%;
+      
+        margin-left: 30%;
+        
+        }
+.screen 
+{
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%; 
+   
+}
+
+.screen header 
+{
+    position: relative;
+    top: 50%;
+    -webkit-transform: translatey(-50%);
+    transform: translatey(-50%); 
+}
+
+.screen h1 
+{
+    color:#00008B; 
+}
+
+.screen-start 
+{
+
+
+    background: #3dc2ff; 
+
+   
+    
+}
+
+.screen-start h1
+{
+    font-size: 6em; 
+}
+
+.screen-start h1 
+{
+    text-align: center;
+    margin-top: .01em; 
+}
+
+.screen-start button
+{
+  text-align: center;
+   
+}
+
+
+.players {
+    color:white;
+    font-size: 1.1em;
+    text-align: center;
+    position: absolute;
+    top: 1rem;
+    padding: 1.2em 0 1em;
+    transition: 1s; 
+
+}
+
+
+.player1
+{
+    left : 5%;
+    width: 5%;
+    border-radius: 5px;
+    background:  #1E90FF;
+}
+.cap1
+{
+  
+   padding-left: 12%;
+   color : #00008B;
+   font-weight: bold;
+   padding-top: 5%;
+   
+   
+}
+
+
+.cap2
+{
+  
+   padding-right: 12%;
+   color : #00008B;
+   font-weight: bold;
+   padding-top: 5%;
+   
+}
+
+
+.player1.turn
+{
+    background-color:#B22222;
+}
+
+.player2.turn
+{
+    background-color: #1E90FF;
+}
+
+.boxes .box 
+{
+    background: rgb(221, 221, 221);
+    border-color: black;
+    border-style: solid;
+    border-radius: 6px;
+    width: 13vw;
+    height: 13vw;
+    float: left;
+    margin-right: .5vw;
+    margin-bottom: .5vw;
+    font-size: 5vw;
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: 0.2s ease; 
+    background-size: 15vw 15vw;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.boxes 
+{
+    width: 51vw;
+    margin: 2em auto 2em; 
+    margin-right: 17em;
+    
+}
+
+.status
+{
+    position: relative;
+    padding: 4vw 0 2vw 0;
+    top : 2px;
+}
+
+.board-row
+{
+    padding : .3vw;
+}
+
+.board-col
+{
+    padding : .3vw;
+
+
+}
+
+
+.imgboard
+{
+    height: 20;
+    width: 20;
+
+}
+.screen-win.tie
+{
+    background-color: #FFF5EE;
+}
+
+.screen-win.ply1
+{
+    background-color:#FFF5EE;
+}
+
+.screen-win.ply2
+{
+    background-color: #FFF5EE;
+    
+
+}
+.screen-win.ply2 p
+{
+    font-size: 10vw;
+    font-weight: 700;
+    color:  #1E90FF;
+    position: relative; 
+    
+
+}
+
+.screen-win.ply1 p
+{
+    font-size: 10vw;
+    font-weight: 700;
+    color: #B22222;
+    position: relative; 
+    
+
+}
+
+.screen-win.tie p
+{
+    font-size: 10vw;
+    font-weight: 700;
+    color: #8B008B;
+    position: relative; 
+    
+
+}
+
+
+
+.screen-win p:before 
+{
+    position: absolute;
+    left: 0;
+    right: 0;
+    color: #fff;
+    font-size: 4em;
+    font-weight: 400;
+    line-height: 0;
+    z-index: -1; 
+}
+
+.screen-win .button
+{
+    background: #E9967A;
+    border-radius: 4px;
+    display: inline-block;
+    padding: 1.25em 3em;
+    text-decoration: none;
+    -webkit-transition: 0.25s ease;
+    transition: 0.25s ease; 
+    font-size: 1em;
+    border: white;
+    font-family: "Montserrat", sans-serif;
+}
+
+.screen-win.ply1 .button
+{
+    color:#B22222;
+}
+
+.screen-win.ply2 .button
+{
+    color: #1E90FF;
+}
+
+.screen-win.tie .button
+{
+    color: #bb3dff;
+}
+
+@media only screen and (max-width: 900px){
+
+.boxes 
+{
+    width: 78vw;
+}
+
+.boxes .box 
+{
+    width: 24vw;
+    height: 24vw;
+    margin-right: 2vw;
+    margin-bottom: 2vw;
+}
+
+}
