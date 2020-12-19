@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/HastiKch/tic-tac-toe.git/static/css/main.e2ca2de7.chunk.css",
+    "main.js": "/HastiKch/tic-tac-toe.git/static/js/main.05fc67a5.chunk.js",
+    "main.js.map": "/HastiKch/tic-tac-toe.git/static/js/main.05fc67a5.chunk.js.map",
+    "runtime-main.js": "/HastiKch/tic-tac-toe.git/static/js/runtime-main.b27540aa.js",
+    "runtime-main.js.map": "/HastiKch/tic-tac-toe.git/static/js/runtime-main.b27540aa.js.map",
+    "static/js/2.20930b00.chunk.js": "/HastiKch/tic-tac-toe.git/static/js/2.20930b00.chunk.js",
+    "static/js/2.20930b00.chunk.js.map": "/HastiKch/tic-tac-toe.git/static/js/2.20930b00.chunk.js.map",
+    "index.html": "/HastiKch/tic-tac-toe.git/index.html",
+    "static/css/main.e2ca2de7.chunk.css.map": "/HastiKch/tic-tac-toe.git/static/css/main.e2ca2de7.chunk.css.map",
+    "static/js/2.20930b00.chunk.js.LICENSE.txt": "/HastiKch/tic-tac-toe.git/static/js/2.20930b00.chunk.js.LICENSE.txt",
+    "static/media/o.d3a99622.svg": "/HastiKch/tic-tac-toe.git/static/media/o.d3a99622.svg",
+    "static/media/x.dd554b9c.svg": "/HastiKch/tic-tac-toe.git/static/media/x.dd554b9c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b27540aa.js",
+    "static/js/2.20930b00.chunk.js",
+    "static/css/main.e2ca2de7.chunk.css",
+    "static/js/main.05fc67a5.chunk.js"
+  ]
+}
